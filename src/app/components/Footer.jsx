@@ -76,7 +76,7 @@ function Footer() {
             />
             <input
               type="submit"
-              className="bg-primary outline outline-[1px] lg:outline-[3px] rounded-sm outline-primary lg:h-10  lg:w-1/5"
+              className="text-md bg-primary outline outline-[1px] lg:outline-[3px] rounded-sm outline-primary text-secondary lg:h-10  lg:w-1/5 px-3 uppercase"
             />
           </div>
         </div>
