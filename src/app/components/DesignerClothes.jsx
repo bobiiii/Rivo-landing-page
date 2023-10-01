@@ -24,9 +24,9 @@ function DesignerClothes() {
   ];
 
   return (
-    <div className="w-11/12 mx-auto my-18">
+    <div className="w-11/12 mx-auto my-18 font-poppins">
       <div className="text-center">
-        <h3 className="text-3xl lg:text-[50px] font-[500] text-secondary">
+        <h3 className="text-3xl lg:text-[50px] font-[500] text-secondary font-elephant">
           Designer Clothes For You
         </h3>
         <p className="py-1 lg:py-4 text-sm lg:text-[20px] lg:font-[500] text-prePrimary">
@@ -34,7 +34,7 @@ function DesignerClothes() {
           crafted designer clothes!
         </p>
       </div>
-      <div className="my-5 overflow-scroll  flex items-stretch mx-auto gap-5">
+      <div className="my-5 overflow-x-auto  flex items-stretch mx-auto gap-5">
         {cardsData.map((item, i) => {
           return (
             <div className="min-w-[180px]  lg:flex-1" key={i}>

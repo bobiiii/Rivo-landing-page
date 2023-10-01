@@ -3,7 +3,7 @@ import React from 'react';
 
 function TabProducts({ cardsData }) {
   return (
-    <div className="grid    grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4   ">
+    <div className="grid    grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4   font-poppins">
       {cardsData.map((item, i) => {
         return (
           <div className=" rounded-lg  flex  flex-col" key={i}>

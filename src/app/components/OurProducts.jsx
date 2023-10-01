@@ -292,12 +292,12 @@ const OurProduct = () => {
   return (
     <div className="w-11/12 mx-auto  lg:py-5">
       <div className="text-center">
-        <h3 className="text-secondary text-3xl lg:text-[50px] font-[500]">
+        <h3 className="text-secondary text-3xl lg:text-[50px] font-[500] font-elephant">
           Our Products
         </h3>
       </div>
 
-      <div className="flex justify-between lg:justify-around  py-3 lg:pt-8 lg:pb-5">
+      <div className=" flex justify-between lg:justify-around  py-3 lg:pt-8 lg:pb-5 font-poppins">
         <button
           className={`${
             activeTab === 1

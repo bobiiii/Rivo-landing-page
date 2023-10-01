@@ -31,10 +31,10 @@ function BestSelling() {
   return (
     <div className="w-10/12 mx-auto my-10 lg:my-16">
       <div className="text-center">
-        <h3 className="text-secondary text-3xl lg:text-[64px] font-[500]">
+        <h3 className="text-secondary text-3xl lg:text-[64px] font-[500] font-elephant">
           Best Selling
         </h3>
-        <p className="text-prePrimary  lg:py-8 text-sm lg:text-[22px]">
+        <p className="text-prePrimary   lg:py-8 text-sm lg:text-[22px] font-poppins">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
       </div>
@@ -52,10 +52,10 @@ function BestSelling() {
                 />
               </div>
               <div className="p-4">
-                <h4 className="text-center lg:text-[22px] font-semibold">
+                <h4 className="text-center lg:text-[22px] font-semibold font-poppins">
                   {item.title}
                 </h4>
-                <div className="flex justify-evenly w-2/3 mx-auto lg:text-[22px] font-medium">
+                <div className="flex justify-evenly w-2/3 mx-auto lg:text-[22px] font-medium font-poppins">
                   <h4>${item.price}</h4> |<h4>{item.review}</h4>
                 </div>
               </div>
@@ -64,7 +64,7 @@ function BestSelling() {
         })}
       </div>
       <div className="text-center">
-        <button className="border rounded-lg border-secondary py-2 px-6 lg:text-[22px] font-[500] inline-flex items-center">
+        <button className="font-poppins border rounded-lg border-secondary py-2 px-6 lg:text-[22px] font-[500] inline-flex items-center">
           See All
           <span className=" ml-2">
             <Image src={arrow} width={30} height={50} alt="arrow" />
