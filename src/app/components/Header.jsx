@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import logo from '../../../public/assets/images/Rivo.svg';
-import bagIcon from '../../../public/assets/images/bagIcon.svg';
+import bagIcon from '../../../public/assets/images/BagIcon.svg';
 
 function Header() {
   return (

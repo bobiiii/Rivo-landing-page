@@ -63,16 +63,16 @@ function Footer() {
           </div>
         </div>
 
-        <div className="  lg:w-4/12  flex flex-col items-center ">
+        <div className="  lg:w-4/12 border border-blue-900  flex flex-col items-center ">
           <h3 className="lg:text-[22px] text-white py-4">STAY UP TO DATE </h3>
-          <div className="text-center">
+          <div className="lg:w-full text-center border border-blue-900">
             <input
               type="text"
-              className="bg-transparent rounded-sm outline outline-[1px] lg:outline-[3px] outline-primary lg:h-10 w-3/5 "
+              className="bg-transparent rounded-sm outline outline-[1px] lg:outline-[3px] outline-primary lg:h-10  w-3/5 "
             />
             <input
               type="submit"
-              className="bg-primary outline outline-[1px] lg:outline-[3px] rounded-sm outline-primary lg:h-10 lg:w-1/5"
+              className="bg-primary outline outline-[1px] lg:outline-[3px] rounded-sm outline-primary lg:h-10  lg:w-1/5"
             />
           </div>
         </div>
