@@ -290,20 +290,20 @@ const OurProduct = () => {
   };
 
   return (
-    <div className="w-10/12 mx-auto  lg:py-5">
+    <div className="w-11/12 mx-auto  lg:py-5">
       <div className="text-center">
         <h3 className="text-secondary text-3xl lg:text-[50px] font-[500]">
           Our Products
         </h3>
       </div>
 
-      <div className="flex justify-center py-3">
+      <div className="flex justify-between lg:justify-around  py-3 lg:pt-8 lg:pb-5">
         <button
           className={`${
             activeTab === 1
               ? 'text-secondary   border-b-2 border-secondary'
               : 'text-black'
-          } py-2 px-4 rounded-l text-sm`}
+          } pb-2 rounded-l text-sm lg:text-xl`}
           onClick={() => handleTabClick(1)}
         >
           SALE
@@ -313,7 +313,7 @@ const OurProduct = () => {
             activeTab === 2
               ? 'text-secondary  border-b-2 border-secondary'
               : 'text-black'
-          } py-2 px-4 text-sm`}
+          } pb-2 text-sm lg:text-xl`}
           onClick={() => handleTabClick(2)}
         >
           HOT
@@ -323,7 +323,7 @@ const OurProduct = () => {
             activeTab === 3
               ? 'text-secondary  border-b-2 border-secondary'
               : 'text-black'
-          } py-2 px-4 rounded-r text-sm`}
+          } pb-2  rounded-r text-sm lg:text-xl  `}
           onClick={() => handleTabClick(3)}
         >
           NEW ARRIVALS
@@ -333,7 +333,7 @@ const OurProduct = () => {
             activeTab === 4
               ? 'text-secondary  border-b-2 border-secondary'
               : 'text-black'
-          } py-2 px-4 rounded-r text-sm`}
+          } pb-2 rounded-r text-sm lg:text-xl`}
           onClick={() => handleTabClick(4)}
         >
           ACESSORIES

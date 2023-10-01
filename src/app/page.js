@@ -18,7 +18,7 @@ export default function Home() {
     <OurProducts/>
     <ExclusiveOffer/>
     <DesignerClothes/>
-    <FeedbackCorner/>
+    {/* <FeedbackCorner/> */}
     <Footer/>
     
 

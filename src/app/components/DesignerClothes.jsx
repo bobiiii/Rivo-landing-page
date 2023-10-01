@@ -24,12 +24,12 @@ function DesignerClothes() {
   ];
 
   return (
-    <div className="w-10/12 mx-auto my-10">
+    <div className="w-11/12 mx-auto my-18">
       <div className="text-center">
-        <h3 className="text-[50px] font-[500] text-secondary">
+        <h3 className="text-3xl lg:text-[50px] font-[500] text-secondary">
           Designer Clothes For You
         </h3>
-        <p className="text-[22px] font-[500] text-secondary">
+        <p className="py-1 lg:py-4 text-sm lg:text-[20px] lg:font-[500] text-prePrimary">
           Immerse yourself in the world of luxury fashion with our meticulously
           crafted designer clothes!
         </p>
@@ -37,21 +37,21 @@ function DesignerClothes() {
       <div className="my-5 overflow-scroll  flex items-stretch mx-auto gap-5">
         {cardsData.map((item, i) => {
           return (
-            <div className="flex-1" key={i}>
+            <div className="min-w-[180px]  lg:flex-1" key={i}>
               <div className={`${item.bg} rounded-lg`}>
                 <Image
                   src={item.img}
                   width={100}
                   height={100}
                   alt="card"
-                  className="w-full h-[450px] "
+                  className="w-full h-[150px] lg:h-[400px] "
                 />
               </div>
               <div className="text-center">
-                <h4 className="py-2 text-[30px] text-[#373737] font-[600]">
+                <h4 className="lg:py-2 lg:text-[30px] text-[#373737] font-[600]">
                   {item.title}
                 </h4>
-                <p className="text-[#373737] px-10">{item.desc}</p>
+                <p className="text-xs text-[#373737] lg:px-10">{item.desc}</p>
               </div>
             </div>
           );

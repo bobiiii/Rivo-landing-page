@@ -29,16 +29,16 @@ function BestSelling() {
   ];
 
   return (
-    <div className="w-10/12 mx-auto my-10">
+    <div className="w-10/12 mx-auto my-10 lg:my-16">
       <div className="text-center">
         <h3 className="text-secondary text-3xl lg:text-[64px] font-[500]">
           Best Selling
         </h3>
-        <p className="text-prePrimary py-2 text-sm lg:text-[22px]">
+        <p className="text-prePrimary  lg:py-8 text-sm lg:text-[22px]">
           Get in on the trend with our curated selection of best-selling styles.
         </p>
       </div>
-      <div className="w-10/12  flex flex-wrap lg:flex-nowrap mx-auto lg:gap-5 my-5 lg:my-10">
+      <div className="w-10/12  flex flex-wrap lg:flex-nowrap mx-auto lg:gap-5 my-5 ">
         {cardsdata.map((item, i) => {
           return (
             <div className="w-full lg:w-1/3  rounded-lg" key={i}>
@@ -48,7 +48,7 @@ function BestSelling() {
                   width={100}
                   height={100}
                   alt="card"
-                  className="h-[300px] lg:h-[450px] w-full"
+                  className="h-[300px] lg:h-[400px] w-full"
                 />
               </div>
               <div className="p-4">

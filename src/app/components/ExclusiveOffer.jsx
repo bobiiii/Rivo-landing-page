@@ -3,8 +3,8 @@ import React from 'react';
 
 function ExclusiveOffer() {
   return (
-    <div className="w-10/12 mx-auto my-10">
-      <div className="bg-primary flex justify-center items-center gap-10">
+    <div className="w-11/12 mx-auto my-10 ">
+      <div className="bg-primary flex justify-center items-center gap-10 py-3 rounded-md">
         <div className="hidden lg:block w-1/2 ">
           <Image
             src={
@@ -18,32 +18,32 @@ function ExclusiveOffer() {
         </div>
         <div className="lg:w-1/2">
           <div>
-            <h3 className="lg:text-[46px] font-[700] text-secondary">
+            <h3 className=" py-2 text-3xl text-center lg:text-[46px] font-[700] text-secondary">
               Exclusive offer
             </h3>
-            <p className="text-[22px] font-[500] text-secondary">
+            <p className="text-xs text-center lg:leading-6 lg:text-[18px] font-[500] w-4/5 mx-auto text-secondary">
               Unlock the ultimate style upgrade with our exclusive offer Enjoy
               savings of up to 40% off on our latest New Arrivals
             </p>
           </div>
-          <div className="flex gap-4 w-2/4 py-5 ">
-            <div className="flex-1 rounded-md flex justify-center flex-col items-center bg-white text-secondary font-[600] text-[32px] ">
+          <div className="flex  border  gap-4 w-3/4 mx-auto lg:w-2/4 py-3 lg:py-5 ">
+            <div className="lg:py-1 flex-1 rounded-md flex justify-center flex-col items-center bg-white text-secondary font-[600] lg:text-[32px] ">
               <h4>06</h4>
-              <span className="text-[16px] font-[500]">days</span>
+              <span className="text-xs lg:text-[16px] font-[500]">days</span>
             </div>
 
-            <div className="flex-1 rounded-md flex justify-center flex-col items-center bg-white text-secondary font-[600] text-[32px] ">
+            <div className="lg:py-1 flex-1 rounded-md flex justify-center flex-col items-center bg-white text-secondary font-[600] lg:text-[32px] ">
               <h4>12</h4>
-              <span className="text-[16px] font-[500]">hours</span>
+              <span className="text-xs lg:text-[16px] font-[500]">hours</span>
             </div>
 
-            <div className="flex-1 rounded-md flex justify-center flex-col items-center bg-white text-secondary font-[600] text-[32px] ">
+            <div className="lg:py-1 flex-1 rounded-md flex justify-center flex-col items-center bg-white text-secondary font-[600] lg:text-[32px] ">
               <h4>48</h4>
-              <span className="text-[16px] font-[500]">minutes</span>
+              <span className="text-xs lg:text-[16px] font-[500]">minutes</span>
             </div>
           </div>
-          <div>
-            <button className="rounded-md bg-secondary text-white text-[20px] font-[500] px-6 py-3">
+          <div className=" w-full text-center  ">
+            <button className="  rounded-md bg-secondary text-white  text-xs lg:text-[18px] font-[500] px-6  py-2 lg:py-3 lg:px-10">
               BUY NOW
             </button>
           </div>
